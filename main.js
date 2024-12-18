@@ -20,6 +20,7 @@ document.addEventListener('keydown', (e) => {
     if (!isNaN(key) || "+-*/.".includes(key)) {
         appendToDisplay(key);
     } else if (key === 'Enter') {
+        e.preventDefault();
         calculate();
     } else if (key === 'Backspace') {
         display.value = display.value.slice(0, -1);
