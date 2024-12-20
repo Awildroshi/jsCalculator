@@ -1,7 +1,10 @@
 const display= document.getElementById('display')
 
 function appendToDisplay(input){
-    display.value+=input;
+     const validInputs = "0123456789+-*/().";
+    if (validInputs.includes(input)) {
+        display.value+=input;
+    }
 }
 function clearDisplay(){
     display.value="";
