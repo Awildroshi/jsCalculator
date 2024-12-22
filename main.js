@@ -15,6 +15,7 @@ function calculate(){
         const expression = display.value.trim();
         if (/[\+\-\*\/\.]$/.test(expression)) {
             throw new Error("Invalid Expression");
+        }
         
         const result = Function(`"use strict"; return (${display.value})`)();
         display.value = result;
