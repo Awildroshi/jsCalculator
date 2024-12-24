@@ -25,6 +25,7 @@ function calculate(){
         display.value="Error";
     }
 }
+//keybaord support
 document.addEventListener('keydown', (e) => {
     const key = e.key;
     if (!isNaN(key) || "+-*/.".includes(key)) {
