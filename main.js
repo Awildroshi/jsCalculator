@@ -1,5 +1,5 @@
 const display= document.getElementById('display')
-
+//shows input on screen
 function appendToDisplay(input){
      const validInputs = "0123456789+-*/().";
     if (validInputs.includes(input)) {
