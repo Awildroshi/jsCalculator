@@ -5,6 +5,7 @@ body{
     align-items: center;
     height:100vh;
 }
+
 button{
     width:100px;
     height:100px;
@@ -14,8 +15,6 @@ button{
     font-size:3rem;
     font-weight: bold;
     cursor:pointer;
-
-
 }
 
 #keys{
