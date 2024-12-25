@@ -22,8 +22,8 @@ button{
     grid-template-columns: repeat(4,1fr);
     gap:10px;
     padding:25px;
-
 }
+
 #calculator{
     font-family:Arial,sans-serif;
     background-color: hsl(90,0%,15%);
