@@ -25,7 +25,7 @@ function calculate(){
         display.value="Error";
     }
 }
-//keybaord support
+//keybaord support for enter,clear and backspace
 document.addEventListener('keydown', (e) => {
     const key = e.key;
     if (!isNaN(key) || "+-*/.".includes(key)) {
