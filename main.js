@@ -6,8 +6,6 @@ function appendToDisplay(input){
         display.value+=input;
     }
 }
-
-
 //clears display
 function clearDisplay(){
     display.value="";
