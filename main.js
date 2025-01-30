@@ -23,7 +23,7 @@ function calculate(){
     catch(error){
         display.value="Error";
     }
-     
+
 }
 //keybaord support for enter,clear and backspace
 document.addEventListener('keydown', (e) => {
