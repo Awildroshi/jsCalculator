@@ -10,6 +10,7 @@ function appendToDisplay(input){
 function clearDisplay(){
     display.value="";
 }
+
 function calculate(){
     try{
         const expression = display.value.trim();
