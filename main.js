@@ -7,8 +7,6 @@ function appendToDisplay(input){
     }
 }
 
-
-
 //clears display
 function clearDisplay(){
     display.value="";
